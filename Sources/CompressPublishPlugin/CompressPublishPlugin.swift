@@ -9,7 +9,7 @@ import Foundation
 import Publish
 import ShellOut
 
-extension Plugin {
+public extension Plugin {
   static var compressFiles: Self {
 	Plugin(name: "Precompress Output files for server") { context in
 	  do {
