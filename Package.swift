@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-       .package(url:"https://github.com/johnsundell/publish.git", from: "0.8.0"),
+       .package(name: "Publish",url:"https://github.com/johnsundell/publish.git", from: "0.8.0"),
        .package(name: "ShellOut", url: "https://github.com/johnsundell/shellout.git", from: "2.3.0")
     ],
     targets: [
